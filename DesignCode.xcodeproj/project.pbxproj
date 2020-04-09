@@ -13,6 +13,15 @@
 		830E15B22425967500834BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830E15B12425967500834BB1 /* Assets.xcassets */; };
 		830E15B52425967500834BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830E15B42425967500834BB1 /* Preview Assets.xcassets */; };
 		830E15B82425967500834BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830E15B62425967500834BB1 /* LaunchScreen.storyboard */; };
+		836E7B33243CF2A70041F5F1 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E7B32243CF2A70041F5F1 /* Modifiers.swift */; };
+		8372A7B724361E38002DF1DB /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A7B624361E38002DF1DB /* UpdateList.swift */; };
+		83A880C72437A6C700B164E3 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A880C62437A6C700B164E3 /* UpdateDetail.swift */; };
+		83A880C92437AB7500B164E3 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A880C82437AB7500B164E3 /* UpdateStore.swift */; };
+		83A880CB2437BE7A00B164E3 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A880CA2437BE7900B164E3 /* TopBar.swift */; };
+		83A880CD2437C29300B164E3 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A880CC2437C29300B164E3 /* RingView.swift */; };
+		83D4CD3F2433D89A00A3A174 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D4CD3E2433D89A00A3A174 /* MenuView.swift */; };
+		83D4CD432434CA2B00A3A174 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D4CD422434CA2B00A3A174 /* Home.swift */; };
+		83D4CD452434D5EB00A3A174 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D4CD442434D5EB00A3A174 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		830E15B42425967500834BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		830E15B72425967500834BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830E15B92425967500834BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836E7B32243CF2A70041F5F1 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		8372A7B624361E38002DF1DB /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		83A880C62437A6C700B164E3 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		83A880C82437AB7500B164E3 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		83A880CA2437BE7900B164E3 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		83A880CC2437C29300B164E3 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		83D4CD3E2433D89A00A3A174 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		83D4CD422434CA2B00A3A174 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		83D4CD442434D5EB00A3A174 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				830E15AB2425966E00834BB1 /* AppDelegate.swift */,
 				830E15AD2425966E00834BB1 /* SceneDelegate.swift */,
 				830E15AF2425966E00834BB1 /* ContentView.swift */,
+				83A880CC2437C29300B164E3 /* RingView.swift */,
+				836E7B32243CF2A70041F5F1 /* Modifiers.swift */,
+				83D4CD3E2433D89A00A3A174 /* MenuView.swift */,
+				8372A7B624361E38002DF1DB /* UpdateList.swift */,
+				83A880C62437A6C700B164E3 /* UpdateDetail.swift */,
+				83A880C82437AB7500B164E3 /* UpdateStore.swift */,
+				83A880CA2437BE7900B164E3 /* TopBar.swift */,
+				83D4CD422434CA2B00A3A174 /* Home.swift */,
+				83D4CD442434D5EB00A3A174 /* HomeView.swift */,
 				830E15B12425967500834BB1 /* Assets.xcassets */,
 				830E15B62425967500834BB1 /* LaunchScreen.storyboard */,
 				830E15B92425967500834BB1 /* Info.plist */,
@@ -147,6 +174,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				830E15AC2425966E00834BB1 /* AppDelegate.swift in Sources */,
+				83A880C92437AB7500B164E3 /* UpdateStore.swift in Sources */,
+				8372A7B724361E38002DF1DB /* UpdateList.swift in Sources */,
+				83D4CD3F2433D89A00A3A174 /* MenuView.swift in Sources */,
+				836E7B33243CF2A70041F5F1 /* Modifiers.swift in Sources */,
+				83A880C72437A6C700B164E3 /* UpdateDetail.swift in Sources */,
+				83A880CD2437C29300B164E3 /* RingView.swift in Sources */,
+				83D4CD432434CA2B00A3A174 /* Home.swift in Sources */,
+				83D4CD452434D5EB00A3A174 /* HomeView.swift in Sources */,
+				83A880CB2437BE7A00B164E3 /* TopBar.swift in Sources */,
 				830E15AE2425966E00834BB1 /* SceneDelegate.swift in Sources */,
 				830E15B02425966E00834BB1 /* ContentView.swift in Sources */,
 			);
